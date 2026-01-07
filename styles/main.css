@@ -1,0 +1,13 @@
+.font-open-sans- {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.navlist {
+    display: flex;
+
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+
+}
