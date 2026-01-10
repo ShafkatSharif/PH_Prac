@@ -19,7 +19,9 @@
 header {
     padding-top: 50px;
     background-color: #FFF8F3;
-    
+    background: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , right bottom;
 }
 
 .logo h2{
@@ -48,7 +50,7 @@ nav .links-list li a {
 
 nav {
     margin: 0px auto;
-    width: 89%; 
+    width: 71%; 
     max-width: 1140px;
     /* border : 2px solid red; */
     display: flex;
@@ -67,3 +69,56 @@ nav {
     font-size: 20px;
 
 }
+
+#banner {
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#banner .banner-img img{
+    max-width: 585px;
+    vertical-align: middle;  /* to remove bottom space */
+}
+
+.about{
+    padding: 130px;
+}
+
+.about .about-container {
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+
+.section-heading {
+    margin: 0 auto;
+    max-width: 827px;
+    
+}
+
+ .section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about .about-container .section-heading p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+
